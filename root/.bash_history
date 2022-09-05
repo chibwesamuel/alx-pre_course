@@ -174,3 +174,20 @@ git add 0-hello_world
 git commit -m 'redirection 1'
 clear
 exit
+ls
+cd alx-system_engineering-devops
+ls
+cd 0x02-shell_redirections
+ls
+git add .
+git commit -m 'first commit'
+clear
+git restore .
+git status
+clear
+git commit -a
+git push origin main
+git config --global user.email "smchibwe@gmail.com"
+git config --global user.name "chibwesamuel"
+git commit -a   
+exit
