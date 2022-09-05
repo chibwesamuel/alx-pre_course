@@ -1,368 +1,176 @@
-cd /root
 ls
-mkdir 0x02_emacs
+cd alx-system_engineering-devops
 ls
-cd /0x02_emacs
-new opening
-touch opening
+cd 0x00-shell_basics
 ls
+cd 0x01-shell_permissions
+clear
+ls
+cat 11-directories_permission
+cat 11-directories_permissions
+vim 11-directories_permissions
+cat 11-directories_permissions
+chmod u+x 11-directories_permissions
+bash 11-directories_permissions
+cat 7-everybody
+vim 7-everybody
+cat 7-everybody
+cat 6-multiple_permissions
+clear
+cat 3-new_owner
+vim 3-new_owner
+cat 3-new_owner
+cat 10-mirrow_permission
+cat 10-mirrow_permissions
+ls
+cat 10-mirror_permissions
+chmod 354 hello
+ls -l
+clear
+echo '#!/bin/bash' > 100-change_owner_and_group
+echo 'chown vincent:staff /root' >> 100-change_owner_and_gro
+echo 'chown vincent:staff /root' >> 100-change_owner_and_group
+cat 100-change_owner_and_group
+echo '#!/bin/bash' > 101-symbolic_link_permissions
+echo 'chown vincent:staff _hello' >> 101-symbolic_link_permis
+echo 'chown vincent:staff _hello' >> 101-symbolic_link_permissions
+cat 101-symb
+cat 101-symbolic_link_permissions
+clear
+echo '#!/bin/bash' > 102-if_only 
+echo 'chown --from=guillaume:staff vincent:staff' >> 102-if_only
 exit
-cd alx-pre_course
-mkdir 0x01-git
-cd 0x01-git
-echo "My first readme" > README.md
+ls
+cd alx-system_engineering-devops
+ls
+cd 0x00-shell_basics
+ls
+cd 0x01-shell_permissions
+clear
+ls
+echo '#!/bin/bash' > 103-Star_Wars
+echo 'xdg-open StarWars IV' >> 103-Star_Wars
+git add .
+git commit -m 'full commit'
+git push origin main
+clear
+ls
+vim 7-everybody
+vim 103-Star_Wars
+vim 102-if_only
+vim 101-symbolic_link_permissions
+git add .
+git commit -m 'full commit'
+git push origin main
+clear
+exit
+ls
+cd alx-system_engineering-devops
+ls
+cd 0x00-shell_basics
+ls
+cd 0x01-shell_permissions
+clear
+git clone https://github.com/chibwesamuel/alx-system_engineering-devops.git
+ls
+cat 102-if_only
+cat 11-directories_permissions
+git commit -m 'fix 1'
+clear
+git add .
+git submodule add <url> 0x01-shell_permissions/alx-system_engineering-devops
+clear
+git submodule add https://github.com/chibwesamuel/alx-system_engineering-devops.git 0x01-shell_permissions/alx-system_engineering-devops
+git commit 'fix 1'
+git commit -m 'fix 1'
+git push origin main
+clear
+exit
+ls
+cd alx-system_engineering-devops
+ls
+cd 0x00-shell_basics
+ls
+cd 0x01-shell_permissions
+clear
+ls
+vim 100-change_owner_and_group
+chmod u+x 100-change_owner_and_group
+git add .
+git commit -m 'late updates'
+git push origin main
+git pull https://github.com/chibwesamuel/alx-system_engineering-devops.git
+clear
+git commit origin -m 'late commit'
+git add .
+git commit origin -m 'late commit'
+git commit -m 'late commit'
+git push 
+clear
+exit
+ls
+cd alx-system_engineering-devops
+mkdir 0x02-shell_redirections
+cd 0x02-shell_redirections
+echo '#!/bin/bash' > 0-hello_world
+echo 'Hello World | cat -e' > 0-hello_world
+chmod u+x 0-hello_world
+bash 0-hello_world
+exit
+ls
+cd alx-system_engineering-devops
+ls
+cd 0x02-shell_redirections
+ls
+rm README.md
+ls
+clear
+echo 'Scripts in this project are performing tasks that answer: 1. Write a script that prints “Hello, World”, followed by a new line to the standard output. 2. Write a script that displays a confused smiley "(Ôo)'. 3. Display the content of the /etc/passwd file. 4. Display the content of /etc/passwd and /etc/hosts 5. Display the last 10 lines of /etc/passwd 6. Display the first 10 lines of /etc/passwd 7. Write a script that displays the third line of the file iacta. 8. Write a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line. 9. Write a script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it. 10. Write a script that duplicates the last line of the file iacta 11. Write a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders. 12. Write a script that counts the number of directories and sub-directories in the current directory. 13. Create a script that displays the 10 newest files in the current directory. 14. Create a script that takes a list of words as input and prints only words that appear exactly once. 15. Display lines containing the pattern “root” from the file /etc/passwd 16. Display the number of lines that contain the pattern “bin” in the file /etc/passwd 17. Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd. 18. Display all the lines in the file /etc/passwd that do not contain the pattern “bin”. 19. Display all lines of the file /etc/ssh/sshd_config starting with a letter. 20. Replace all characters A and c from input to Z and e respectively. 21. Create a script that removes all letters c and C from input. 22. Write a script that reverse its input. 23. Write a script that displays all users and their home directories, sorted by users.' > README.md
+echo '(Scripts in this project are performing tasks that answer: 1. Write a script that prints “Hello, World”, followed by a new line to the standard output. 2. Write a script that displays a confused smiley "(Ôo)'. 3. Display the content of the /etc/passwd file. 4. Display the content of /etc/passwd and /etc/hosts 5. Display the last 10 lines of /etc/passwd 6. Display the first 10 lines of /etc/passwd 7. Write a script that displays the third line of the file iacta. 8. Write a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line. 9. Write a script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it. 10. Write a script that duplicates the last line of the file iacta 11. Write a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders. 12. Write a script that counts the number of directories and sub-directories in the current directory. 13. Create a script that displays the 10 newest files in the current directory. 14. Create a script that takes a list of words as input and prints only words that appear exactly once. 15. Display lines containing the pattern “root” from the file /etc/passwd 16. Display the number of lines that contain the pattern “bin” in the file /etc/passwd 17. Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd. 18. Display all the lines in the file /etc/passwd that do not contain the pattern “bin”. 19. Display all lines of the file /etc/ssh/sshd_config starting with a letter. 20. Replace all characters A and c from input to Z and e respectively. 21. Create a script that removes all letters c and C from input. 22. Write a script that reverse its input. 23. Write a script that displays all users and their home directories, sorted by users.)' > README.md
+clear
+ls
+echo 'Scripts in this project answer 0x02. Shell, I/O Redirections and filters' > README.md
+ls
 cat README.md
-git config --global user.email "smchibwe@gmail.com"
-git config --global user.name "chibwesamuel"
-git add .
-git commit -m "My second commit"
-git push
 clear
-mkdir bash
-mkdir c
-mkdir js
-ls
-cd /c
-cd c
-echo ' '> c_is_fun.c
-cd js
-cd 0x01-git
-cd root
-cd /root/
-cd alx-pre_course/0x01-git
-cd alx-pre_cour
-cd alx-pre_course
-pwd
-cd -
-cd ..
-cd js
-echo ' '> main.js
-cd ..
-clear
-cd js
-echo ' '> index.js
-ls
-cd ..
-cd bash
-echo '#!/bin/bash'> ALX
-echo 'echo "ALX"'> ALX
-echo '#!/bin/bash'> bash
-echo 'echo "School"'> bash
-git config --global user.email "smchibwe@gmail.com"
-git config --global user.name "smchibwesamuel"
-git add .
-git commit -m 'Starting to code today, so cool'
-git push
-exit
-git config --global user.email "smchibwe@gmail.com"
-git config --global user.name "chibwesamuel"
-git add .
-clear
-ls
-cd alx-pre_course
-ls
-cd 0x01-git
-git branch --list
-ls
-cd bash
-ls
-cat alx
-git config --global user.email "smchibwe@gmail.com"
-git config --global user.name "chibwesamuel"
-git add .
-git commit -m "Hot fix"
-git push
-rm js
-cd ..
-rm js
-clear
-rm -r js
-ls
-git config --global user.email "smchibwe@gmail.com"
-git config --global user.name "chibwesamuel"
-git add .
-git commit -m "Hot fix"
-git push
-git pull origin master --allow-unrelated-histories
-cd ..
-echo 'Sandbox was used for this work'> up_to_date
-git config --global user.email "smchibwe@gmail.com"
-git config --global user.name "chibwesamuel"
-git add .
-git commit -m "How to be up to date in git"
-git push
-clear
-cd 0x01-git
-echo "Emacs">up_to_date
-git config --global user.email "smchibwe@gmail.com"
-git config --global user.name "chibwesamuel"
-git add .
-git commit -m "How to be up to date in git"
-git push
-cat up_to_date
-sed -i 's/Emacs/Git pull/' up_to_date
-cat up_to_date
-git config --global user.email "smchibwe@gmail.com"
-git config --global user.name "chibwesamuel"
-git add .
-git commit -m "How to be up to date in git"
-git push
-clear
-sed -i 's/Git pull/git pull/' up_to_date
-cat up-to_date
-cat up_to_date
-git config --global user.email "smchibwe@gmail.com"
-git config --global user.name "chibwesamuel"
-git add .
-git commit -m "How to be up to date in git"
-git push
-clear
-git checkout master
-git merge update_script
-exit
-cd /root
-ls
-cd 0x02_emacs
-ls
-echo 'ctrl-x f'> opening
-sed -i 's/ctrl-x f/ctrl-x/' opening
-sed -i 's/ctrl-x/C-x C-f/' opening
-echo 'C-x C-s'> saving
-echo 'dd'> cutting
-sed -i 's/dd/d/' cutting
-cat cutting
-echo 'C-x C-p'> pasting
-sed -i 's/d/C-x C-d/' cutting
-sed -i 's/C-x C-d/C-d/' cutting
-cat cutting
-sed -i 's/C-d/yy/'cutting
-sed -i 's/C-d/C-p/' pasting
-cat pasting
-cat cutting
-sed -i 's/C-d/C-k/'cutting
-rm cutting
-ls
-echo C-k> cutting
-clear
-ls
-rm pasting
-ls
-echo C-y> pasting
-echo C-s> searching
-echo C-x u> undoing
-echo C-x C-c> quitting
-cd ..
-git status
-clear
-git config --global user.email "smchibwe@gmail.com"
-git config --global user.name "chibwesamuel"
-git add .
-git commit -m "My personal work"
-clear
-git push
 exit
 ls
-cd root
+cd alx-system_engineering-devops
 ls
-cd ..
+cd 0x02-shell_redirections
 ls
-ls -l
 clear
-cd alx-pre_course
-ls
-cd 0x01-git
-ls
-git branch
-git checkout update_script
-git merge update_script
-git branch
-git add bash
-git commit -m "Resolving the fatal error"
-git push
-clear
-git merge update_script
-git status
-git merge update_script
-git status
-exit
-ls
-cd alx-pre_course
-ls
-cd 0x01-git
-ls
-echo "~".gitignore
-ls
+echo '#!/bin/bash' > 0-hello_world
+echo 'Hello, World \n' >> 0-hello_world
+chmod u+x 0-hello_world
+bash 0-hello_world
+rm 0-hello_world
+echo '#!/bin/bash' > 0-hello_world
+echo "Hello, World \n" >> 0-hello_world
+chmod u+x 0-hello_world
+bash 0-hello_world
+rm 0-hello_world 
+echo '#!/bin/bash' > 0-hello_world 
+echo "Hello World \n" >> 0-hello_world
+chmod u+x 0-hello_world
+bash 0-hello_world  
+rm 0-hello_world  
+echo '#!/bin/bash' > 0-hello_world  
+echo 'hello, world \n' >> 0-hello_world
+chmod u+x 0-hello_world  
 clear
 git add .
-git commit -m 'gitignore'
-git push
-sed -i 's/~/"~"/'gitignore
-sed -i '/~/"~"/'gitignore
-cat gitignore
-cat .gitignore
-git status
-echo "~">>.gitignore
-git status
+git commit -m 'redirection commit'
+git push origin main
 clear
-git add .gitignore
-git commit -m "gitignore modified"
-git push
-git status
-exit
-cd root
-touch so_cool
-ls
-cp school /tmp
-cd /tmp
-ls
-cd ..
-ls
-cd root
-ls
-clear
-cd /tmp
-ls
-mv not_here /right_school
-cd /right_school
-ls
-cd ..
-ls
-cd right_school
-cd /right_school
-cat right_school
-cd /root
-ls
-cd /tmp
-ls
-cd /tmp.DAOEzJT0J6
-cat /tmp.DAOEzJT0J6
-cd alx-pre_course
-cd ..
-cd alx-pre_course
+git config --global user.email "smchibwe@gmail.com"
+git config --global user.name "chibwesamuel"
+git add .
+git commit -m 'redirection 1'
 clear
 ls
-cd 0x01-git
-ls
-cd bash
-ls
-cd ..
-cd c
-ls
-cd /root
+git add README.md
+git add 0-hello_world
+git commit -m 'redirection 1'
 clear
-cd /tmp
-ls
-mkdir right_school
-cd /right_school
-ls
-cd right_school
-touch not_here
-ls
-mv not_here /tmp
-cd ..
-ls
-mv not_here /root
-cd root
-cd /root
-clear
-ls
-mv not_here /tmp/right_school
-pwd
-cd /tmp
-cd /right_school
-cd ..
-ls
-cd /root
-ls
-cd /tmp
-ls
-cd /right_school
-cat right_school
-cd right_school
-ls
-clear
-cat not_here
-echo "wc: /tmp/right_school: Is a directory" not_here
-pwd
-ls
-cat not_here
-echo "wc: /tmp/right_school: Is a directory">> not_here
-cat not_here
-pwd
-mv not_here ../root
-ls
-cd /root
-ls
-pwd
-ls
-clear
-ls -l
-touch not_here
-ls
-pwd
-mv not_here ../tmp/right_school
-cd /tmp
-pwd
-ls
-cd right_school
-ls -l
-ls ../right_school
-exit
-pwd
-cd /root
-ls
-cd 0x02_emacs
-ls
-cat opening
-cat cutting
-cat pasting
-cat quitting
-cat saving
-cat searching
-cat undoing
-cd ..
-clear
-pwd
-mkdir 0x01_emacs
-ls
-cd 0x01_emacs
-ls
-echo "C-x C-f" opening
-ls
-echo "C-x C-f"> opening
-ls
-cat opening
-clear
-echo "C-x C-s" > saving
-cat saving
-echo "C-k" > cutting
-cat cutting
-echo "C-y" > pasting
-echo "C-s" > searching
-echo "C-x u"> undoing
-echo "C-x C-c" > quitting
-exit
-cd /root
-ls
-cd 0x03_vi
-ls
-cat inserting
-cat cutting
-cat pasting
-cat undoing
-cat exiting
-cat beginning_of_the_line
-cat end_of_the_line
-clear
-cd ..
-mkdir 0x02_vi
-cd 0x02_vi
-echo "i" > inserting
-echo "dd" > cutting
-echo "p" > pasting
-echo "u" > undoing
-echo ':q!<return>' > exiting
-echo "0" > beginning_of_the_line
-echo "$" > end_of_the_line
-pwd
 exit
